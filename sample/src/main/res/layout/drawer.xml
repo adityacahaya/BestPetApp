@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/left_drawer"
+    android:layout_width="320dp"
+    android:layout_height="match_parent"
+    android:layout_gravity="start"
+    android:background="#E0F7FA">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="100dp"
+            android:layout_weight="1"
+            android:src="@mipmap/icon"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Best Pet App"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:background="#80DEEA"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Best Pet App merupakan aplikasi yang dapat digunakan untuk mengenal jenis-jenis hewan peliharaan yang ada di sekitar kita. Funngsi dari aplikasi ini dapat melihat nama ras dari masing-masing jenis hewan, gambar hewan serta dapat menampilkan deskripsi dari hewan yang di klik pada List hewan."
+            android:textSize="18sp"
+            android:padding="10dp"
+            android:gravity="start"
+            android:layout_weight="1"
+            android:background="#80DEEA"/>
+
+    </LinearLayout>
+
+</ScrollView>
